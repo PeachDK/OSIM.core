@@ -98,14 +98,13 @@
   <ItemGroup>
     <Compile Include="Entities\ItemType.cs" />
     <Compile Include="Persistence\ItemTypeRepository.cs" />
+    <Compile Include="Persistence\LoginSystem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DomainServices\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
